@@ -35,9 +35,10 @@ class WeatherModel {
       icon = 'assets/icons/sun.png';
     }
   }
-
+  //Subtract 273 from temps to convert from Kelvin to Celsius 
   factory WeatherModel.fromJson({dynamic data}) {
     return WeatherModel(
+      //get one digit after dot
       temp: double.parse((data['main']['temp'] - 273.0).toStringAsFixed(1)),
       maxTemp:
           double.parse((data['main']['temp_max'] - 273.0).toStringAsFixed(1)),
