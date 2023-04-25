@@ -1,16 +1,24 @@
-# weather_app
+# Weather App
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Weather app is a mobile application that is used to to know the weather of
+more than 200,000 cities.
+Cairo is the default city when the app is runned.
+There is a search page that has search field to search for any city.
+There are some main cities appear in the search page with thier weather.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Links
+Api: https://openweathermap.org/api
+Logo & Weather icons: https://www.flaticon.com
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#### @Contact
+
+Dev email: ziadelgaraihe301@gmail.com
+Dev account on github: https://github.com/ZiadElgaraihe
+
+Designer account on figma: https://www.figma.com/@apurvamohapatra
