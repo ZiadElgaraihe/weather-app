@@ -11,6 +11,7 @@ class SearchPageFuncs {
   ConnectivityResult? _connectivityResult;
   Future<void> onSearchPressed(context,
       {required String cityName, required FocusNode focusNode}) async {
+    _connectivityResult = await Connectivity().checkConnectivity();
     if (_connectivityResult == ConnectivityResult.wifi ||
         _connectivityResult == ConnectivityResult.mobile) {
       if (cityName.isNotEmpty) {
